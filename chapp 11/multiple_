@@ -1,0 +1,34 @@
+class employee:
+    company = "ITC"
+    name = "harry"
+    salary = "12k"
+        
+    def show(self):
+        print(f"The name of employee is {self.name} and the salary is {self.salary}")
+
+
+# class coder:
+#     dance= "disco"
+
+#     def dance(self):
+       
+#         print(f"The name of dance is {self.dance}")
+
+
+# class programmer(employee , coder):
+#     company = "Found ITC"
+
+#     def lang(self, name, lang):
+#         self.name = name
+#         self.lang = lang
+#         print(f"The name of employee is {self.name} and the language is {self.lang}")
+
+
+a = employee()
+# b = programmer()
+
+# b.lang("harry", "py")  # b.lang is a method, not a value — error ayega
+
+# b.show("harry", "12k")
+a.show()
+# b.dance()

@@ -3,4 +3,7 @@ ek blank form ek class hoti
 den tw wo object bn ajata hy 
 
 
-modelling a problem in oops
+modelling a problem in oops 
+noun = class , emplyee
+adjective = attributes , name , age etc
+verbs = methods , getsalary() , getincrement()
