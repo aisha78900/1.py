@@ -8,11 +8,15 @@ class employee:
     @property
     def salarafterincrement(self):
         return (self.salary + self.salary*(self.increment/100))
-    increment.setter
-    def increm
-
+    
+    @salarafterincrement.setter
+    def salarafterincrement(self , salary):
+        self.increment = ((salary/self.salary) - 1)*100
+        
+      
 e = employee()
-print(e.salarafterincrement)
+e.salarafterincrement = 380
+print(e.increment)
 
 
 # Note: @property aur @property.setter dono methods ko function 

@@ -1,0 +1,15 @@
+
+class vector:
+    def __init__(self, l ):
+     self.l = l
+     
+    def __len__(self):
+        return len(self.l)
+   
+ 
+v1 = vector([1 , 2 ,3 ])
+print(len(v1))
+
+
+
+# agr hmen length print krni hy input ki tw hmen list bnana pregii 

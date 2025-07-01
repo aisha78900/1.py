@@ -2,7 +2,7 @@ class employee :
     lang = "py"
     salary = 12000
     
-    def getinfo(self):
+    def getinfo():
         print(f"the language is {self.lang} the salary is {self.salary}")
     @staticmethod #is se ye self nahi lega q ky is me hmen koi object property nahi chai 
     def greet():
